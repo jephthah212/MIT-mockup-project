@@ -192,8 +192,101 @@ body {
     color: white;
 }
 
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .cta-contents {
+        margin: 0 1em;
+        padding: 2em;
+    }
 
+    .student-group-box, .nav_menu {
+        padding: 1em;
+    }
 
+    .introduction-message {
+        padding-left: 5px;
+    }
+
+    .upcoming-events {
+        padding-left: 5%;
+    }
+
+    .event {
+        flex: 1 1 45%
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content, .nav_menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-contents {
+        padding: 1em;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .event {
+        flex: 1 1 100%
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .student-group-box,
+    .nav_menu {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .nav_menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cta {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .cta-contents {
+        padding: 1em;
+        margin: 0;
+    }
+
+    .introduction-message {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .upcoming-events {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .event {
+        flex: 1 1 100%;
+    }
+
+    .studentgroup {
+        padding: 1em;
+    }
+}
 
 
 
