@@ -192,6 +192,10 @@ body {
     color: white;
 }
 
+.nav_menu .icon {
+    display: none;
+  }
+
 @media (max-width: 1024px) {
     .cta-contents {
         margin: 0 1em;
